@@ -1,29 +1,75 @@
 body {
-  background-color: #549c66;
+  background: linear-gradient(#549c66, lightgray);
+  height: 1500px;
+  background-image: url(http://cdn.cnn.com/cnnnext/dam/assets/220707113925-17-maldives-best-overwater-villas-velaa.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.banner {
+  display: block;
+  background-color: rgba(211, 211, 211, 0.6);
+  position: relative;
   text-align: center;
+  text-shadow: 2px 2px darkgreen;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
   font-size: 30px;
-  font-family: sans-serif;
   color: rgb(3, 54, 17);
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
 }
 
 h2 {
   font-size: 20px;
-  font-family: sans-serif;
-  color: rgb(5, 87, 27);
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  border-radius: 200px;
+  padding: 20px;
 }
 
 ul {
   list-style-position: inside;
   font-size: 20px;
-  font-family: sans-serif;
-  color: rgb(5, 87, 27);
+  color: yellow;
+  display: grid;
+  position: relative;
 }
 
 p {
   font-size: 20px;
-  font-family: sans-serif;
-  color: rgb(5, 87, 27);
+  text-align: left;
+  font-style: italic;
+  color: white;
+}
+
+.summary {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  background-color:rgb(5, 125, 130);
+  border-bottom: 10px;
+  text-align: center;
+}
+
+.pages {
+  background-color: rgba(255, 255, 255, 0.528);
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-top: 10px;
 }
